@@ -23,12 +23,27 @@
           <a class="header-link" href="./pages/about-us/index.html">Про нас</a>
           <a class="header-link" href="./pages/find-us/index.html">Де ми ?</a>
         </nav>
-        <button class="header-btn" onclick="redirect()">Звʼязатись</button>
+        <button class="header-btn" onclick="redirect('./pages/contact-us/index.html')">Звʼязатись</button>
       </div>
       <div class="mobile-header">
         <img class="header-logo" src="./img/logo.png" alt="logo" />
         <h2 class="header-h">Головна сторінка</h2>
-        <img class="header-menu" src="./img/btn-burg.png" alt="btn" />
+        <div class="menu-toggle">
+            <div class="icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="./index.html">Головна сторінка</a></li>
+                <li><a href="./pages/service/index.html">Послуши</a></li>
+                <li><a href="./pages/about-us/index.html">Про нас</a></li>
+                <li><a href="./pages/find-us/index.html">Де ми?</a></li>
+                <button class="button" onclick="redirect('./pages/contact-us/index.html')">Звʼязатись</button>
+            </ul>
+        </nav>
       </div>
     </header>
     <main>
@@ -64,7 +79,7 @@
             <img src="./img/m-3.png" class="img" alt="img" />
           </div>
         </div>
-        <button class="button">Перейти до інших послуг</button>
+        <button class="button" onclick="redirect('./pages/service/index.html')">Перейти до інших послуг</button>
       </div>
       <div class="container-3">
         <h2 class="heading">Історія створення</h2>
@@ -75,7 +90,7 @@
               що перетинають зіркові системи для того, щоб створити ідеальні
               обласні космічні оселі...
             </p>
-            <button class="button">Дізнатись більше про нас</button>
+            <button class="button" onclick="redirect('./pages/about-us/index.html')">Дізнатись більше про нас</button>
           </div>
           <img src="./img/m-4.png" class="img" alt="img" />
         </div>
@@ -91,7 +106,7 @@
               Планета: Лунаріс IV <br />
               Космічний Термінал: Σ-37Г<br />
             </p>
-            <button class="button">Адреса</button>
+            <button class="button" onclick="redirect('./pages/find-us/index.html')">Адреса</button>
           </div>
         </div>
       </div>

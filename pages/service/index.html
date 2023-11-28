@@ -1,17 +1,195 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Послуги</title>
-    <link rel="stylesheet" href="../../reset.css">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="../../reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header" id="top">
+      <div class="desktop-header">
+        <img class="header-logo" src="../../img/logo.png" alt="logo" />
+        <nav class="header-nav">
+          <a class="header-link" href=".../../index.html">Головна сторінка</a>
+          <a class="header-link" href="../service/index.html">Послуги</a>
+          <a class="header-link" href="../about-us/index.html">Про нас</a>
+          <a class="header-link" href="../find-us/index.html">Де ми ?</a>
+        </nav>
+        <button class="header-btn" onclick="redirect()">Зв'язатись</button>
+      </div>
+      <div class="mobile-header">
+        <img class="header-logo" src="../../img/logo.png" alt="logo" />
+        <h2 class="header-h">Послуги</h2>
+        <div class="menu-toggle">
+          <div class="icon">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+        <nav class="nav">
+          <ul>
+            <li><a href=".../../index.html">Головна сторінка</a></li>
+            <li><a href="../service/index.html">Послуги</a></li>
+            <li><a href="../about-us/index.html">Про нас</a></li>
+            <li><a href="../find-us/index.html">Де ми?</a></li>
+            <button class="button" onclick="redirect()">Звʼязатись</button>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="main-container addi">
+        <div class="main-container-txt">
+          <h1>Послуги</h1>
+
+          <p>
+            У нас кожна послуга – це ексклюзивна подорож у світ інновацій та
+            <br />
+            комфорту. Наші домові не просто прибирають, вони творять космічні<br />
+            витвори, де кожен куток наповнений гармонією та чистотою. <br />
+            Здавайте свій дім в руки майстрів, і кожен вихід на поріг стане
+            <br />
+            переходом у галактичну сагу бездоганності. "Чистий Дім" – де мрії
+            про <br />
+            ідеальний простір стають реальністю!
+          </p>
+        </div>
+        <img src="../../img/s-1.png" alt="img" />
+      </div>
+      <div class="container-3">
+        <h3>Давайте знайомитись із нашими послугами ближче </h3>
+        <div class="card">
+          <div class="card-txt">
+            <h4>Галактичне Прибирання</h4>
+            <p>
+              Використання антигравітаційних <br />
+              прибиральних роботів для повного <br />
+              очищення та вирівнювання кожного <br />
+              кутка вашого космічного простору.
+            </p>
+          </div>
+          <img src="../../img/s-2.png" class="img" alt="img" />
+        </div>
+        <div class="card">
+          <div class="card-txt">
+            <h4>
+              Прибирання Космічних <br />
+              Кімнат
+            </h4>
+            <p>
+              Оснащення домових з променевими <br />
+              пристроями для очищення та <br />
+              утилізації космічного сміття в <br />
+              приміщеннях
+            </p>
+          </div>
+          <img src="../../img/s-3.png" class="img" alt="img" />
+        </div>
+        <div class="card">
+          <div class="card-txt">
+            <h4>
+              Технологічна хімчистка <br />
+              меблів та килимів
+            </h4>
+            <p>
+              Використання інноваційних апаратів для <br />
+              чищення та відновлення меблів із <br />
+              застосуванням галактичних антиплямних <br />
+              технологій.
+            </p>
+          </div>
+          <img src="../../img/s-4.png" class="img" alt="img" />
+        </div>
+        <div class="card">
+          <div class="card-txt">
+            <h4>Квантове Миття Вікон</h4>
+            <p>
+              Застосування квантових технологій <br />
+              для миття та опрацювання вікон, <br />
+              забезпечуючи абсолютно чистий та <br />
+              бездоганний вид.
+            </p>
+          </div>
+          <img src="../../img/s-5.png" class="img" alt="img" />
+        </div>
+        <div class="card">
+          <div class="card-txt">
+            <h4>Світловий Сервіс Звітності</h4>
+            <p>
+              Використання світлових сенсорів для <br />
+              моніторингу та звітності у реальному <br />
+              часі стану космічного прибирання <br />
+              вашого житла.
+            </p>
+          </div>
+          <img src="../../img/s-6.png" class="img" alt="img" />
+        </div>
+        <div class="card">
+          <div class="card-txt">
+            <h4>Космічна Хімія</h4>
+            <p>
+              Впровадження екологічно чистих та <br />
+              космічних засобів для прибирання, що<br />
+              забезпечують безпеку для вас та <br />
+              галактики.
+            </p>
+          </div>
+          <img src="../../img/s-7.png" class="img" alt="img" />
+        </div>
+      </div>
+      <div class="container-3">
+        <div class="card">
+          <div class="card-txt">
+            <h4>
+              *Улюблена послуга власників <br />
+              космічних садів
+            </h4>
+            <h4>Космічне Садівництво</h4>
+            <p>
+              Використання агрокосмічних технологій для догляду та <br />
+              оздоблення космічних садів та присадибних територій.<br /><br />
+
+              Завдяки сучасним науковим розробкам та інноваціям, ми <br />
+              вдосконалюємо підходи до садівництва в космосі, <br />
+              допомагаючи вам створити простір, де краса природи <br />
+              зливається з чудовою атмосферою космосу. Наша команда <br />
+              професіоналів готова подарувати вам незабутні моменти в <br />
+              космічних садах, роблячи їх ще більш привабливими та<br />
+              вражаючими.
+            </p>
+          </div>
+          <img src="../../img/s-8.png" class="img" alt="img" />
+        </div>
+      </div>
+      <div class="card-txt">
+        <p>
+          Наші послуги не тільки допоможуть підтримувати бездоганну чистоту та
+          порядок, але також <br />
+          перетворять ваш дім на справжню казку. Кожного разу, коли ви входите у
+          вашe приміщення, ви <br />
+          потрапляєте в чарівний світ, де деталі і краса поєднуються, щоб
+          створити незабутню атмосферу. <br />
+          Наша мета - зробити ваш дім не просто місцем проживання, але і
+          казковим місцем,в яке вам <br />
+          захочеться повертатися знову і знову.
+        </p>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <a href="#top"><div></div></a>
+        <h6>inc. Chisty Dim 2023</h6>
+      </div>
+    </footer>
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>

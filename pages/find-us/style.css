@@ -312,3 +312,78 @@ footer {
 .footer-container > a > div:hover {
   background-image: url("../../img/up2.png");
 }
+
+
+.menu-toggle {
+    cursor: pointer;
+    display: block;
+}
+
+.icon {
+    width: 30px;
+    height: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.bar {
+    background-color: pink;
+    width: 30px;
+    height: 4px;
+    transition: 0.4s;
+}
+
+.menu-toggle.active .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.menu-toggle.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.active .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+}
+
+.nav.active {
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    justify-content: center;
+}
+
+.nav li {
+    margin-bottom: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: hotpink;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: block;
+    padding: 10px 15px; 
+}
+
+.nav a:hover{
+    text-decoration: underline;
+}

@@ -11,7 +11,60 @@
     <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello</h1>
+    <header class="header" id="top">
+        <div class="desktop-header">
+          <img class="header-logo" src="../../img/logo.png" alt="logo" />
+          <nav class="header-nav">
+            <a class="header-link" href=".../../index.html">Головна сторінка</a>
+            <a class="header-link" href="../service/index.html">Послуги</a>
+            <a class="header-link" href="../about-us/index.html">Про нас</a>
+            <a class="header-link" href="./find-us/index.html">Де ми ?</a>
+          </nav>
+          <button class="header-btn" onclick="redirect()">Звʼязатись</button>
+        </div>
+        <div class="mobile-header">
+          <img class="header-logo" src="../../img/logo.png" alt="logo" />
+          <h2 class="header-h">Звʼязатись</h2>
+          <div class="menu-toggle">
+            <div class="icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href=".../../index.html">Головна сторінка</a></li>
+                <li><a href="../service/index.html">Послуги</a></li>
+                <li><a href="../about-us/index.html">Про нас</a></li>
+                <li><a href="../find-us/index.html">Де ми?</a></li>
+                <button class="button" onclick="redirect()">Звʼязатись</button>
+            </ul>
+        </nav>
+        </div>
+      </header>
+    <main>
+        <div class="main-container">
+          <div class="main-container-txt">
+            <h1>Звʼязатись</h1>
+            <h3>Маєте питання чи бажаєте замовити наші послуги?</h3>
+            <input type="text" id="text-input" placeholder="Написати повідомлення">
+          <button class="send-button">&#8594;</button>
+          <h3>Слідкуйте за нами в соц.мережах</h3>
+          <div class="social-icons">
+              <a href="#" target="_blank"><i class="fab fa-facebook">facebook</i></a>
+              <a href="#" target="_blank"><i class="fab fa-twitter">twitter</i></a>
+              <a href="#" target="_blank"><i class="fab fa-instagram">instagram</i></a>
+          </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="footer-container">
+          <a href="#top"><div></div></a>
+          <h6>inc. Chisty Dim 2023</h6>
+        </div>
+      </footer>
     <script src="./index.js"></script>
 </body>
 </html>

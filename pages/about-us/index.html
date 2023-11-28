@@ -18,17 +18,32 @@
       <div class="desktop-header">
         <img class="header-logo" src="../../img/logo.png" alt="logo" />
         <nav class="header-nav">
-          <a class="header-link" href="./index.html">Головна сторінка</a>
-          <a class="header-link" href="./pages/service/index.html">Послуги</a>
-          <a class="header-link" href="./pages/about-us/index.html">Про нас</a>
-          <a class="header-link" href="./pages/find-us/index.html">Де ми ?</a>
+          <a class="header-link" href=".../../index.html">Головна сторінка</a>
+          <a class="header-link" href="../service/index.html">Послуги</a>
+          <a class="header-link" href="../about-us/index.html">Про нас</a>
+          <a class="header-link" href="../find-us/index.html">Де ми ?</a>
         </nav>
         <button class="header-btn" onclick="redirect()">Звʼязатись</button>
       </div>
       <div class="mobile-header">
         <img class="header-logo" src="../../img/logo.png" alt="logo" />
-        <h2 class="header-h">Головна сторінка</h2>
-        <img class="header-menu" src="../../img/btn-burg.png" alt="btn" />
+        <h2 class="header-h">Про нас</h2>
+        <div class="menu-toggle">
+            <div class="icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href=".../../index.html">Головна сторінка</a></li>
+                <li><a href="../service/index.html">Послуги</a></li>
+                <li><a href="../about-us/index.html">Про нас</a></li>
+                <li><a href="../find-us/index.html">Де ми?</a></li>
+                <button class="button" onclick="redirect()">Звʼязатись</button>
+            </ul>
+        </nav>
       </div>
     </header>
     <main>
